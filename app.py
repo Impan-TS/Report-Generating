@@ -42,7 +42,7 @@ def create_connection():
 
 # Connect to the database
 def connect_to_db():
-    conn_str = 'ODBC ODBC ODBC ODBC ODBC ODBC ODBC Driver 17 for SQL Server 17 for SQL Server 17 for SQL Server 17 for SQL Server 17 for SQL Server 17 for SQL Server 17 for SQL Server={SQL Server};SERVER=' + DESKTOP-BSC7DMCSQLEXPRESS + ';DATABASE=' + tse_data + ';UID=' + sa + ';PWD=' + tiger
+    conn_str = 'DRIVER={SQL Server};SERVER=' + DB_SERVER + ';DATABASE=' + DB_DATABASE + ';UID=' + DB_USER + ';PWD=' + DB_PASSWORD
     return pyodbc.connect(conn_str)
 
 # Fetch all table names from the database

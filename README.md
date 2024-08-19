@@ -25,13 +25,13 @@ The application enabled the feature of efficient report generation based on the 
 ## Installation and Setup 🛠️
 
 1. Clone the Repository:
-  - git clone <repository-url>
-  - cd <project-directory>
+  git clone <repository-url>
+  cd <project-directory>
 
 
 2. Create a Virtual Environment:
-  - python -m venv venv
-  - source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 
 3. Install Dependencies:

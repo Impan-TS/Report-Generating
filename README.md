@@ -1,3 +1,48 @@
+# Report Generation Application
+
+## About Project 📄
+The application enabled the feature of efficient report generation based on the departments and time durations. This Report Generation App is built using Flask, allowing users to generate detailed reports based on data from an SQL Server database. Users can log in, select report parameters, and generate customized reports that are dynamically created based on their inputs.
+
+## Project Functionalities ⚙
+  - User Authentication: Allows both regular users and administrators to log in securely.
+  - Report Generation: Users can select parameters such as department, date range, and time difference to generate reports.
+  - Data Retrieval: Dynamically fetches data from SQL Server based on user inputs.
+  - Admin Panel: Provides administrators with the ability to manage user accounts and permissions.
+  - Error Handling: Includes mechanisms to handle invalid inputs and database errors.
+  - Session Management: Maintains user sessions to track activities and ensure authenticated access.
+    
+## Technologies Used 👨‍💻
+- Flask - For developing the backend of the application.
+- Flask-SQLAlchemy - For ORM-based interactions with the SQL Server database.
+- PyODBC - For connecting to and querying the SQL Server database.
+- Jinja2 - For rendering dynamic HTML templates.
+- Bcrypt - For securely hashing and storing user passwords.
+- Flask-Login - For managing user sessions and authentication.
+- HTML/CSS - For building the basic templates and styling of the web pages.
+- JavaScript - For adding interactive elements and handling AJAX requests.
+
+## Installation and Setup 🛠️
+1. Clone the Repository:
+  - git clone <repository-url>
+  - cd <project-directory>
+
+2. Create a Virtual Environment:
+  - python -m venv venv
+  - source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. Install Dependencies:
+  - pip install -r requirements.txt
+
+4. Configure the Database:
+  - Update the config.py file with your SQL Server credentials.
+
+5. Run the Application:
+  - flask run
+
+6. Access the Application:
+  - Open your web browser and go to http://127.0.0.1:5000
+
+### Here Are Some ScreenShots of The Application
 ![1](https://github.com/user-attachments/assets/451883a2-059d-4115-8d05-0e85c3c05c72)
 ![2](https://github.com/user-attachments/assets/eb189b44-a6fe-49ac-bf37-1513aaf00ee3)
 ![3](https://github.com/user-attachments/assets/6d1ba084-5e90-43ff-958b-d6bdd75594e8)

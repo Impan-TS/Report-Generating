@@ -22,33 +22,6 @@ The application enabled the feature of efficient report generation based on the 
 - HTML/CSS - For building the basic templates and styling of the web pages.
 - JavaScript - For adding interactive elements and handling AJAX requests.
 
-## Installation and Setup 🛠️
-
-1. Clone the Repository:
-  git clone <repository-url>
-  cd <project-directory>
-
-
-2. Create a Virtual Environment:
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-
-3. Install Dependencies:
-  - pip install -r requirements.txt
-
-
-4. Configure the Database:
-  - Update the config.py file with your SQL Server credentials.
-
-
-5. Run the Application:
-  - flask run
-
-
-6. Access the Application:
-  - Open your web browser and go to http://127.0.0.1:5000
-
 ### Here Are Some ScreenShots of The Application
 ![1](https://github.com/user-attachments/assets/451883a2-059d-4115-8d05-0e85c3c05c72)
 ![2](https://github.com/user-attachments/assets/eb189b44-a6fe-49ac-bf37-1513aaf00ee3)

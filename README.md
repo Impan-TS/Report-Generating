@@ -12,6 +12,7 @@ The application enabled the feature of efficient report generation based on the 
   - Session Management: Maintains user sessions to track activities and ensure authenticated access.
     
 ## Technologies Used 👨‍💻
+- Python - Programming language used to develop the application.
 - Flask - For developing the backend of the application.
 - Flask-SQLAlchemy - For ORM-based interactions with the SQL Server database.
 - PyODBC - For connecting to and querying the SQL Server database.
@@ -22,22 +23,28 @@ The application enabled the feature of efficient report generation based on the 
 - JavaScript - For adding interactive elements and handling AJAX requests.
 
 ## Installation and Setup 🛠️
+
 1. Clone the Repository:
   - git clone <repository-url>
   - cd <project-directory>
+
 
 2. Create a Virtual Environment:
   - python -m venv venv
   - source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
+
 3. Install Dependencies:
   - pip install -r requirements.txt
+
 
 4. Configure the Database:
   - Update the config.py file with your SQL Server credentials.
 
+
 5. Run the Application:
   - flask run
+
 
 6. Access the Application:
   - Open your web browser and go to http://127.0.0.1:5000
